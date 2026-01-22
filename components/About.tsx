@@ -8,8 +8,16 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="order-2 lg:order-1 relative">
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://picsum.photos/seed/tech1/400/500" alt="Tech 1" className="rounded-sm shadow-lg translate-y-8" />
-              <img src="https://picsum.photos/seed/tech2/400/500" alt="Tech 2" className="rounded-sm shadow-lg -translate-y-4" />
+              <img 
+                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop" 
+                alt="Scanner Intraoral e Equipamentos" 
+                className="rounded-sm shadow-lg translate-y-8 object-cover h-64 w-full" 
+              />
+              <img 
+                src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=2070&auto=format&fit=crop" 
+                alt="Planejamento Digital 3D" 
+                className="rounded-sm shadow-lg -translate-y-4 object-cover h-64 w-full" 
+              />
             </div>
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-royal-blue/5 rounded-full -z-10"></div>
           </div>

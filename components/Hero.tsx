@@ -4,14 +4,14 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-royal-blue">
-      {/* Background Image with Overlay */}
+      {/* Background Image: Modern Dental Clinic */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/seed/doctor1/1920/1080" 
-          alt="Dr. José Augusto Camargo" 
-          className="w-full h-full object-cover opacity-30 grayscale mix-blend-overlay"
+          src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2070&auto=format&fit=crop" 
+          alt="Clínica Odontológica Moderna" 
+          className="w-full h-full object-cover opacity-20 grayscale mix-blend-overlay"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-royal-blue via-royal-blue/80 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-royal-blue via-royal-blue/90 to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
@@ -62,8 +62,8 @@ const Hero: React.FC = () => {
              <div className="absolute -inset-4 bg-gold opacity-10 rounded-full blur-3xl"></div>
              <div className="relative border-[1px] border-gold/30 p-4">
                <img 
-                 src="https://picsum.photos/seed/doctor2/600/800" 
-                 alt="Dr. José Augusto" 
+                 src="https://images.unsplash.com/photo-1559839734-2b71f1536783?q=80&w=2070&auto=format&fit=crop" 
+                 alt="Dr. José Augusto Camargo" 
                  className="relative z-10 w-full max-w-md shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
                />
                <div className="absolute bottom-10 -left-10 bg-white p-6 shadow-2xl z-20 max-w-[200px]">

@@ -61,9 +61,9 @@ const Education: React.FC = () => {
           <div className="relative">
             <div className="aspect-square bg-white/5 rounded-full absolute -inset-10 animate-pulse"></div>
             <img 
-              src="https://picsum.photos/seed/training/800/800" 
-              alt="Training Session" 
-              className="relative z-10 rounded-lg shadow-2xl border-2 border-gold/20"
+              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop" 
+              alt="Mentoria Profissional" 
+              className="relative z-10 rounded-lg shadow-2xl border-2 border-gold/20 object-cover aspect-[4/3]"
             />
           </div>
         </div>
